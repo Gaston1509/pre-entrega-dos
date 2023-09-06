@@ -1,0 +1,278 @@
+/* *RESET 
+FUENTE: font-family: 'Roboto', sans-serif;
+
+*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.cambio{
+    color: black ;
+}
+body{
+    background-color: rgb(135, 253, 253);
+    background-image: url("../assets/bg\ body.avif");
+}
+.centrado{
+    text-align: center;
+    
+}
+.justificado{
+    text-align: justify;
+}
+
+    /*---------------- MENU DE NAVEGACION------------------------- */
+.bg-body-verde{
+    background-color: rgb(159, 226, 205);
+    min-height: 70px;
+
+}
+
+.navbar-collapse{
+   flex-grow: inherit !important;
+}
+
+.nav-nav{
+    justify-content:space-between;
+}
+
+.nav-link{
+    color: rgb(59, 55, 55);
+   
+}
+
+.nav-link:hover{
+    color: rgb(17, 18, 17);
+    font-size: 1.1rem;
+}
+.navbar{
+    padding: 0;
+}
+
+
+
+.navbar-brand .img-logo{
+    height: 70px;
+    width: 70px;
+}
+
+
+.titulo-central{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    
+    
+}
+
+
+
+    /*-------------- CUERPO PRINCIPAL----------------------*/
+
+.cinta{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 5px 0;
+    margin-bottom: 5px;
+}
+.bg-body-fondo{
+    background-color: rgb(228, 222, 222);
+}
+
+
+
+
+.cinta h1{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.card{
+    min-width: 50%;
+    background-color: rgb(212, 206, 206);
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+.card h3{
+    color: rgb(49, 44, 44);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card img{
+    width: 100%;
+}
+
+    /*---------------------------BANNER--------------------------- */
+
+.banner{
+    background-color: rgb(212, 206, 206);
+    min-height: 40vh;
+    border: solid 1px grey;
+    border-radius: 10px;
+    color: rgb(49, 44, 44);
+
+    }
+
+#banner-h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+/* RECETAS */
+
+.card-receta{
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(181, 245, 223);
+    box-shadow: 10px 10px 20px  2px gray;
+}
+        /* ----------------------GELERIA ------------------- */
+.caja{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja1{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja2{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja3{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja4{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja5{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja6{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja7{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja8{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.caja9{
+    height: 500px;
+    width: 50%;
+    background-image: url("../assets/galery/10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+
+/* CONTACTO  */
+.container-contacto{
+    height: 100vh;
+}
+.contacto{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(162, 238, 233);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px  2px gray;
+}
+.contacto p{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.contacto p a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    
+}
+.contacto p span{
+    text-transform: lowercase;
+}
+
+    /*------------------ FOOTER ------------------*/
+    .pie{
+        min-height: 80px;
+        background-color: rgb(150, 190, 177);
+        
+    }
+    .pie ul{
+        list-style: none;
+        
+    }
+    .pie a{
+        color: rgb(74, 62, 62);
+        text-decoration: none;
+        list-style: none;
+        letter-spacing: 2px;
+    }
+    .fa-brands{
+        font-size: 25px;
+        padding-right: 1rem;
+    }
+
+     /* ------------@media-------------- */
+
+     @media screen (min-width: 768px) {
+     
+     }
