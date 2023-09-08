@@ -68,6 +68,10 @@ body{
 
 
     /*-------------- CUERPO PRINCIPAL----------------------*/
+.principal a{
+    text-decoration: none;
+    color: rgb(49, 44, 44);;
+}
 
 .cinta{
     background-color: black;
@@ -102,7 +106,8 @@ body{
 }
 
 .card img{
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
     /*---------------------------BANNER--------------------------- */
@@ -280,6 +285,10 @@ body{
         .off-4{
             display: none;
         }
+        .card img{
+            min-height: 80%;
+        }
+       
            
      }
 
@@ -290,5 +299,6 @@ body{
         .off-3{
             display: none;
         }
+        
            
      }
