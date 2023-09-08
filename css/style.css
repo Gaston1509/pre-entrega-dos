@@ -259,6 +259,7 @@ body{
     .pie{
         min-height: 80px;
         background-color: rgb(150, 190, 177);
+        color: rgb(74, 62, 62);
         
     }
     .pie ul{
@@ -269,7 +270,7 @@ body{
         color: rgb(74, 62, 62);
         text-decoration: none;
         list-style: none;
-        letter-spacing: 2px;
+        /* letter-spacing: 2px; */
     }
     .fa-brands{
         font-size: 25px;
