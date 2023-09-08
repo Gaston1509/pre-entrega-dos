@@ -273,6 +273,22 @@ body{
 
      /* ------------@media-------------- */
 
-     @media screen (min-width: 768px) {
-     
+     @media (max-width: 576px),  (max-width: 768px) {
+        .off-2 {
+            display: none;
+        }
+        .off-4{
+            display: none;
+        }
+           
+     }
+
+     @media (min-width: 768px) {
+        .off-1{
+            display: none;
+        }
+        .off-3{
+            display: none;
+        }
+           
      }
