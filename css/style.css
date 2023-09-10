@@ -157,6 +157,25 @@ body{
 
 
         /* ----------------------GELERIA ------------------- */
+.cajaGaleria1{
+    background-image: url("../assets/galery/1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.carousel-inner{
+    height: 80vh;
+    width: 100%;
+}
+.carousel-inner .carousel-item{
+    background-size: cover;
+}
+
+
+
+
+
 .caja{
     height: 500px;
     width: 50%;
