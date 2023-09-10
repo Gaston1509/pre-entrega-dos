@@ -130,7 +130,23 @@ body{
 
 
 
-/* RECETAS */
+/* ---------------------RECETAS------------------------------ */
+.btn-receta{
+    background-color: rgb(180, 168, 168);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+.btn-receta:hover{
+    background-color: rgb(206, 100, 100);
+    color: white;
+}
+.btn:first-child:active{
+    background-color: rgb(206, 100, 100);
+}
+
+
+
 
 .card-receta{
     width: 800px;
@@ -138,6 +154,8 @@ body{
     background-color: rgb(181, 245, 223);
     box-shadow: 10px 10px 20px  2px gray;
 }
+
+
         /* ----------------------GELERIA ------------------- */
 .caja{
     height: 500px;
