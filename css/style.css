@@ -24,14 +24,15 @@ body{
 
 
     /*---------------- MENU DE NAVEGACION------------------------- */
+
 .bg-body-verde{
     background-color: rgb(159, 226, 205);
     min-height: 70px;
 
 }
-
-.navbar-collapse{
-   flex-grow: inherit !important;
+.navbar-nav{
+    width: 100%;
+    justify-content: end;
 }
 
 .nav-nav{
@@ -130,7 +131,28 @@ body{
 
 
 
-/* RECETAS */
+/* ---------------------RECETAS------------------------------ */
+.bg-card{
+    margin-top: 10pz;
+    background-color: rgba(235, 248, 248, 0.705);
+    border: 0.5px solid rgb(190, 169, 169);
+}
+
+
+
+.btn-receta{
+    background-color: rgb(180, 168, 168);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+.btn-receta:hover{
+    background-color: rgb(206, 100, 100);
+    color: white;
+}
+.btn:first-child:active{
+    background-color: rgb(206, 100, 100);
+}
 
 .card-receta{
     width: 800px;
@@ -138,7 +160,28 @@ body{
     background-color: rgb(181, 245, 223);
     box-shadow: 10px 10px 20px  2px gray;
 }
+
+
         /* ----------------------GELERIA ------------------- */
+.cajaGaleria1{
+    background-image: url("../assets/galery/1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.carousel-inner{
+    height: 80vh;
+    width: 100%;
+}
+.carousel-inner .carousel-item{
+    background-size: cover;
+}
+
+
+
+
+
 .caja{
     height: 500px;
     width: 50%;
