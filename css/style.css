@@ -24,15 +24,14 @@ body{
 
 
     /*---------------- MENU DE NAVEGACION------------------------- */
-
 .bg-body-verde{
     background-color: rgb(159, 226, 205);
     min-height: 70px;
 
 }
-.navbar-nav{
-    width: 100%;
-    justify-content: end;
+
+.navbar-collapse{
+   flex-grow: inherit !important;
 }
 
 .nav-nav{
@@ -131,7 +130,7 @@ body{
 
 
 
-/* ---------------------RECETAS------------------------------ */
+/* -----------------------------------RECETAS -----------------------*/
 .bg-card{
     margin-top: 10pz;
     background-color: rgba(235, 248, 248, 0.705);
@@ -162,118 +161,12 @@ body{
 }
 
 
+
         /* ----------------------GELERIA ------------------- */
-.cajaGaleria1{
-    background-image: url("../assets/galery/1.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
 
-}
-.carousel-inner{
-    height: 80vh;
-    width: 100%;
-}
-.carousel-inner .carousel-item{
-    background-size: cover;
-}
+        
 
-
-
-
-
-.caja{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja1{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja2{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja3{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja4{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja5{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/6.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja6{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/7.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja7{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/8.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja8{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/9.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.caja9{
-    height: 500px;
-    width: 50%;
-    background-image: url("../assets/galery/10.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-
-/* CONTACTO  */
+/* ------------------CONTACTO----------------  */
 .container-contacto{
     height: 100vh;
 }
@@ -299,7 +192,7 @@ body{
     text-transform: lowercase;
 }
 
-    /*------------------ FOOTER ------------------*/
+    /*---------------------- FOOTER -------------------------*/
     .pie{
         min-height: 80px;
         background-color: rgb(150, 190, 177);
