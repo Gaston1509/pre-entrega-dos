@@ -162,7 +162,12 @@ body{
 
 
 
-        /* ----------------------GELERIA ------------------- */
+/* ----------------------GELERIA ------------------- */
+
+.item-img{
+    height: 100%;
+    width: 100%;
+}
 
         
 
@@ -236,6 +241,9 @@ body{
         .card img{
             min-height: 30vh;
         }
+        /* .item-img{
+            margin-left: 3rem;
+        } */
       
             
      }

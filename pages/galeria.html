@@ -58,35 +58,94 @@
     
 
     <!------------------ cuerpo principal ---------------------  -->
-    <main class="container-fluid mt-4 ">
+    <main class="container mt-4 ">
 
         <div class="row d-flex gy-5 gx-5">
 
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
-            <img src="../assets/galery/3.jpg" alt="Empanada Frita">
+          <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+            <img src="../assets/galery/3.jpg" alt="Empanada Frita" class="item-img rounded-4">
           </div>
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
-            <img src="../assets/galery/4.jpg" alt="Empanda Frita">
+          <div class=" col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+            <img src="../assets/galery/4.jpg" alt="Empanda Frita" class="item-img rounded-4">
           </div>
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center ">
-            <img src="../assets/galery/7-7.jpg" alt="Empanda Frita">
+          <div class=" col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center ">
+            <img src="../assets/galery/7-7.jpg" alt="Empanda Frita" class="item-img rounded-4">
           </div>
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
-            <img src="../assets/galery/8.jpg" alt="Empanda Frita">
+          <div class=" col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+            <img src="../assets/galery/8.jpg" alt="Empanda Frita" class="item-img rounded-4">
           </div>
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
-            <img src="../assets/galery/9.jpg" alt="Empanda Frita">
+          <div class=" col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+            <img src="../assets/galery/9.jpg" alt="Empanda Frita" class="item-img rounded-4">
           </div>
-          <div class="item-img col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
-            <img src="../assets/galery/10.jpg" alt="Empanda Frita">
+          <div class=" col-sm-12 col-md-6 col-lg-4 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center">
+            <img src="../assets/galery/10.jpg" alt="Empanda Frita" class="item-img rounded-4">
           </div>
-        
+        </div>
+
+        <!--------------------carousel ------------------------>
+
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <h2 class="text-center">titulo</h2>
+              <p class="px-5 justificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores ullam, minus explicabo et voluptas itaque ipsa quaerat mollitia deleniti neque. Eos, repellat exercitationem aliquid mollitia dolore cumque minus. Doloremque.</p>
+
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/carousel/jujeña.jpg" class="d-block w-100 rounded-4" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/carousel/salteña.jpg" class="d-block w-100 rounded-4" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/carousel/sanluis.jpg" class="d-block w-100 rounded-4" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
 
 
         </div>
+
+        <!------ videos youtube ------------------->
+
+        <div class="row">
       
+        <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center mt-5 mb-4">
 
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/sz3XPr2Pk1g?si=yyH0yYsHWMV2LCfO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-4"></iframe>
+        </div>
 
+        <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center mt-5 mb-4">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/wfZm8CHglbQ?si=y24cDVzDje0K42Zy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="rounded-4"></iframe>
+
+        </div>
+    </div>
+
+    <!------------ Salsa picante --------------->
+
+    <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-center mt-5 mb-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FAsjL-oHzv8?si=YAIASIsn9Xq55aek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
 
 
 
