@@ -13,15 +13,7 @@
 <body>
     <!-- encabezado > logo, menu de navegacion, formulario, buscador -->
     <header>
-        <!-- <nav class="menu-navegacion">
-           <ul>
-            <li><a href="../index.html">inicio</a></li>
-            <li><a href="variedades.html">variedades</a></li>
-            <li><a href="recetas.html">recetas</a></li>
-            <li><a href="galeria.html">galeria</a></li>
-            <li><a href="contacto.html">contácto</a></li>
-           </ul> 
-        </nav> -->
+       
         <nav class="navbar navbar-expand-lg bg-body-verde">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html"><img class="img-logo" src="../assets/logo1.png" alt=""></a>
@@ -55,21 +47,28 @@
     
 
     <!-- cuerpo principal   -->
-    <main>
 
-        <div class="container-contacto">
-            <br>
-        <h1 class="titulo-central  centrado">contacto</h1>
-    <div class="contacto">
-        <br>
-        <p>Dejanos tu e-mail para contáctarte.</p>
-        <br>
-        <p>Tambien te podes comunicar al e-mail <span>empanadasargentas@argentina.com</span></p>
-        <br>
-        <p>Nuestro teléfono es 0800-0900-0800.</p>
-        <br>
-        <p>Seguinos en <a href="#">Instagram</a> y <a href="#">Facebook</a> </p>
-        </div>
+
+    <main class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+          
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn bg-boton mb-3">Enviar</button>
+      </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <h2>titulo</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae molestiae et, fugiat nobis natus iure perferendis illum vero doloremque, cumque omnis error non dolores dicta quisquam at, sit dolorum maxime?</p>
+      </div>
     </div>
        
     </main>
