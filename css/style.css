@@ -92,7 +92,7 @@ body{
     margin-bottom: 5px;
 }
 .bg-body-fondo{
-    background-color: rgb(228, 222, 222);
+    background-color: rgba(228, 222, 222, 0.817);
 }
 
 
@@ -105,9 +105,9 @@ body{
 
 .card{
     min-width: 50%;
-    background-color: rgb(212, 206, 206);
+    background-color: rgba(212, 206, 206, 0.677);
     border-radius: 10px;
-    border: solid 1px grey;
+    border: solid 1px rgb(128, 128, 128);
 }
 .card h3{
     color: rgb(49, 44, 44);
@@ -124,7 +124,7 @@ body{
     /*---------------------------BANNER--------------------------- */
 
 .banner{
-    background-color: rgb(212, 206, 206);
+    background-color: rgba(212, 206, 206, 0.677);
     min-height: 40vh;
     border: solid 1px grey;
     border-radius: 10px;
