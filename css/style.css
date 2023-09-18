@@ -76,8 +76,6 @@ body{
     
 }
 
-
-
     /*-------------- CUERPO PRINCIPAL----------------------*/
 .principal a{
     text-decoration: none;
@@ -94,9 +92,6 @@ body{
 .bg-body-fondo{
     background-color: rgba(228, 222, 222, 0.817);
 }
-
-
-
 
 .cinta h1{
     font-size: 1.5rem;
@@ -121,7 +116,7 @@ body{
     min-width: 100%;
 }
 
-    /*---------------------------BANNER--------------------------- */
+/*---------------------------BANNER--------------------------- */
 
 .banner{
     background-color: rgba(212, 206, 206, 0.677);
@@ -137,6 +132,25 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/*--------------------------- VARIEDADES --------------------------*/
+.cardVariedad-1{
+    height: 200px;
+}
+.cardVariedad-2{
+    height: 220px;
+}
+.cardVariedad-3{
+    height: 340px;
+}
+.cardVariedad-4{
+    height: 300px;
+}
+.cardVariedad-5{
+    height: 150px;
+}
+
+
+
 
 
 
@@ -146,8 +160,6 @@ body{
     background-color: rgba(235, 248, 248, 0.705);
     border: 0.5px solid rgb(190, 169, 169);
 }
-
-
 
 .btn-receta{
     background-color: rgb(180, 168, 168);
@@ -184,29 +196,16 @@ body{
 
         
 /* ------------------CONTACTO----------------  */
-.container-contacto{
-    height: 100vh;
+.btn-large{
+    width: 100%;
 }
-.contacto{
-    height: 500px;
-    width: 50%;
-    background-color: rgb(162, 238, 233);
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px  2px gray;
-}
-.contacto p{
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-}
-.contacto p a{
-    text-decoration: none;
-    color: black;
-    font-style: italic;
+.form-control{
+    background-color: rgb(227, 213, 213);
     
 }
-.contacto p span{
-    text-transform: lowercase;
+.form-control:focus{
+    background-color: rgb(193, 182, 182);
+
 }
 
     /*---------------------- FOOTER -------------------------*/
@@ -242,8 +241,9 @@ body{
     }
 
      /* ------------@media-------------- */
+    /*---------cuando se encoje---------*/
 
-     @media (max-width: 576px),  (max-width: 768px) {
+     @media (max-width: 576px), (max-width: 768px) {
         .off-2 {
             display: none;
         }
@@ -253,20 +253,68 @@ body{
         .card img{
             min-height: 30vh;
         }
-        /* .item-img{
-            margin-left: 3rem;
-        } */
-      
-            
-     }
-
-     @media (min-width: 768px) {
+        .maps{
+            display: none;
+        }
+        .cardVariedad-1{
+           height: auto;
+        }
+        .cardVariedad-2{
+            height: auto;
+        }
+        .cardVariedad-3{
+            height: auto;
+        }
+        .cardVariedad-4{
+            height: auto;
+        }
+        .cardVariedad-5{
+            height: auto;
+        }
+       
+    }
+    
+    /*------cuando se agranda----------*/
+     @media (min-width: 768px), (min-width: 992px) {
         .off-1{
             display: none;
         }
         .off-3{
             display: none;
         }
-       
-             
+        .cardVariedad-1{
+            height: auto;
+         }
+         .cardVariedad-2{
+             height: auto;
+         }
+         .cardVariedad-3{
+             height: auto;
+         }
+         .cardVariedad-4{
+             height: auto;
+         }
+         .cardVariedad-5{
+             height: auto;
+         }
+           
      }
+
+     @media (min-width: 992px){
+        .cardVariedad-1{
+            height: 200px;
+        }
+        .cardVariedad-2{
+            height: 220px;
+        }
+        .cardVariedad-3{
+            height: 340px;
+        }
+        .cardVariedad-4{
+            height: 300px;
+        }
+        .cardVariedad-5{
+            height: 150px;
+        }
+    }
+       
