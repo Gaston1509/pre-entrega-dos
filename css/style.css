@@ -2,319 +2,307 @@
 FUENTE: font-family: 'Roboto', sans-serif;
 
 */
-*{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-.cambio{
-    color: black ;
+.cambio {
+  color: black;
 }
-body{
-    background-color: rgb(135, 253, 253);
-    background-image: url("../assets/bg\ body.avif");
+body {
+  background-color: rgb(135, 253, 253);
+  background-image: url("../assets/bg\ body.avif");
 }
-.centrado{
-    text-align: center;
-    
+.centrado {
+  text-align: center;
 }
-.justificado{
-    text-align: justify;
+.justificado {
+  text-align: justify;
 }
 
-
-    /*---------------- MENU DE NAVEGACION------------------------- */
-.bg-body-verde{
-    background-color: rgb(159, 226, 205);
-    min-height: 70px;
-
+/*---------------- MENU DE NAVEGACION------------------------- */
+.bg-body-verde {
+  background-color: rgb(159, 226, 205);
+  min-height: 70px;
 }
-.bg-boton{
-    background-color: rgb(159, 226, 205);
-    width: 120px;
-    letter-spacing: 2px;
-    color: black;
-    
+.bg-boton {
+  background-color: rgb(159, 226, 205);
+  width: 120px;
+  letter-spacing: 2px;
+  color: black;
 }
-.bg-boton:hover{
-    background-color: rgb(162, 162, 212);
+.bg-boton:hover {
+  background-color: rgb(162, 162, 212);
 }
 
-
-.navbar-nav{
-    width: 100%;
-    justify-content: flex-end;
-    margin-left: 0px;
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: 0px;
 }
 
-.nav-link{
-    color: rgb(59, 55, 55);
-   
+.nav-link {
+  color: rgb(59, 55, 55);
 }
 
-.nav-link:hover{
-    color: rgb(17, 18, 17);
-    font-size: 1.1rem;
+.nav-link:hover {
+  color: rgb(17, 18, 17);
+  font-size: 1.1rem;
 }
-.navbar-brand{
-    margin-left: 0px;
-}
-
-
-
-.navbar-brand .img-logo{
-    height: 70px;
-    width: 70px;
-    
+.navbar-brand {
+  margin-left: 0px;
 }
 
-
-.titulo-central{
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    
-    
+.navbar-brand .img-logo {
+  height: 70px;
+  width: 70px;
 }
 
-    /*-------------- CUERPO PRINCIPAL----------------------*/
-.principal a{
-    text-decoration: none;
-    color: rgb(49, 44, 44);;
+.titulo-central {
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
 
-.cinta{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 0px 5px 0;
-    margin-bottom: 5px;
-}
-.bg-body-fondo{
-    background-color: rgba(228, 222, 222, 0.817);
+/*-------------- CUERPO PRINCIPAL----------------------*/
+.principal a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
 }
 
-.cinta h1{
-    font-size: 1.5rem;
-    letter-spacing: 3px;
+.cinta {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0px 5px 0;
+  margin-bottom: 5px;
+}
+.bg-body-fondo {
+  background-color: rgba(228, 222, 222, 0.817);
 }
 
-.card{
-    min-width: 50%;
-    background-color: rgba(212, 206, 206, 0.677);
-    border-radius: 10px;
-    border: solid 1px rgb(128, 128, 128);
-}
-.card h3{
-    color: rgb(49, 44, 44);
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.cinta h1 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
 }
 
-.card img{
-    min-height: 100%;
-    min-width: 100%;
+.card {
+  min-width: 50%;
+  background-color: rgba(212, 206, 206, 0.677);
+  border-radius: 10px;
+  border: solid 1px rgb(128, 128, 128);
+}
+.card h3 {
+  color: rgb(49, 44, 44);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card img {
+  min-height: 100%;
+  min-width: 100%;
 }
 
 /*---------------------------BANNER--------------------------- */
 
-.banner{
-    background-color: rgba(212, 206, 206, 0.677);
-    min-height: 40vh;
-    border: solid 1px grey;
-    border-radius: 10px;
-    color: rgb(49, 44, 44);
+.banner {
+  background-color: rgba(212, 206, 206, 0.677);
+  min-height: 40vh;
+  border: solid 1px grey;
+  border-radius: 10px;
+  color: rgb(49, 44, 44);
+}
 
-    }
-
-#banner-h3{
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+#banner-h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 /*--------------------------- VARIEDADES --------------------------*/
-.cardVariedad-1{
-    height: 200px;
+.cardVariedad-1 {
+  height: 200px;
 }
-.cardVariedad-2{
-    height: 220px;
+.cardVariedad-2 {
+  height: 220px;
 }
-.cardVariedad-3{
-    height: 340px;
+.cardVariedad-3 {
+  height: 340px;
 }
-.cardVariedad-4{
-    height: 300px;
+.cardVariedad-4 {
+  height: 300px;
 }
-.cardVariedad-5{
-    height: 150px;
+.cardVariedad-5 {
+  height: 150px;
 }
-
-
-
-
-
 
 /* -----------------------------------RECETAS -----------------------*/
-.bg-card{
-    margin-top: 10pz;
-    background-color: rgba(235, 248, 248, 0.705);
-    border: 0.5px solid rgb(190, 169, 169);
+.bg-card {
+  margin-top: 10pz;
+  background-color: rgba(235, 248, 248, 0.705);
+  border: 0.5px solid rgb(190, 169, 169);
 }
 
-.btn-receta{
-    background-color: rgb(180, 168, 168);
-    width: 200px;
-    height: 50px;
-    font-size: 25px;
+.btn-receta {
+  background-color: rgb(180, 168, 168);
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
 }
-.btn-receta:hover{
-    background-color: rgb(206, 100, 100);
-    color: white;
+.btn-receta:hover {
+  background-color: rgb(206, 100, 100);
+  color: white;
 }
-.btn:first-child:active{
-    background-color: rgb(206, 100, 100);
-}
-
-.card-receta{
-    width: 800px;
-    border-radius: 10px;
-    background-color: rgb(181, 245, 223);
-    box-shadow: 10px 10px 20px  2px gray;
+.btn:first-child:active {
+  background-color: rgb(206, 100, 100);
 }
 
-
+.card-receta {
+  width: 800px;
+  border-radius: 10px;
+  background-color: rgb(181, 245, 223);
+  box-shadow: 10px 10px 20px 2px gray;
+}
 
 /* ----------------------GELERIA ------------------- */
 
-
-.item-img{
-    height: 100%;
-    width: 100%;
-    outline: 1px solid white;
-    outline-offset: -5px;
+.item-img {
+  height: 100%;
+  width: 100%;
+  outline: 1px solid white;
+  outline-offset: -5px;
 }
 
-        
 /* ------------------CONTACTO----------------  */
-.btn-large{
-    width: 100%;
+.btn-large {
+  width: 100%;
 }
-.form-control{
-    background-color: rgb(227, 213, 213);
-    
+.form-control {
+  background-color: rgb(227, 213, 213);
 }
-.form-control:focus{
-    background-color: rgb(193, 182, 182);
-
+.form-control:focus {
+  background-color: rgb(193, 182, 182);
+}
+.asado > a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
+  text-transform: uppercase;
+}
+.asado > a:hover {
+  color: rgb(49, 44, 44);
+  font-size: 1.1rem;
 }
 
-    /*---------------------- FOOTER -------------------------*/
-    .pie{
-        min-height: 80px;
-        background-color: rgb(150, 190, 177);
-        color: rgb(74, 62, 62);
-        
-    }
-    .pie ul{
-        list-style: none;
-        
-    }
-    .pie a{
-        color: rgb(74, 62, 62);
-        text-decoration: none;
-        list-style: none;
-        /* letter-spacing: 2px; */
-    }
-    .pie a:hover{
-        color: rgb(17, 18, 17);
-        font-size: 1.1rem;
-    }
+/*---------------------- FOOTER -------------------------*/
+.pie {
+  min-height: 80px;
+  background-color: rgb(150, 190, 177);
+  color: rgb(74, 62, 62);
+}
+.pie ul {
+  list-style: none;
+}
+.pie a {
+  color: rgb(74, 62, 62);
+  text-decoration: none;
+  list-style: none;
+  /* letter-spacing: 2px; */
+}
+.pie a:hover {
+  color: rgb(17, 18, 17);
+  font-size: 1.1rem;
+}
 
-    .fa-brands{
-        font-size: 25px;
-        padding-right: 1rem;
-    }
+.fa-brands {
+  font-size: 25px;
+  padding-right: 1rem;
+}
 
-    .fa-brands:hover{
-        color: rgb(17, 18, 17);
-        font-size: 2rem;
-    }
+.fa-brands:hover {
+  color: rgb(17, 18, 17);
+  font-size: 2rem;
+}
 
-     /* ------------@media-------------- */
-    /*---------cuando se encoje---------*/
+/* ------------@media-------------- */
+/*---------cuando se encoje---------*/
 
-     @media (max-width: 576px), (max-width: 768px) {
-        .off-2 {
-            display: none;
-        }
-        .off-4{
-            display: none;
-        }
-        .card img{
-            min-height: 30vh;
-        }
-        .maps{
-            display: none;
-        }
-        .cardVariedad-1{
-           height: auto;
-        }
-        .cardVariedad-2{
-            height: auto;
-        }
-        .cardVariedad-3{
-            height: auto;
-        }
-        .cardVariedad-4{
-            height: auto;
-        }
-        .cardVariedad-5{
-            height: auto;
-        }
-       
-    }
-    
-    /*------cuando se agranda----------*/
-     @media (min-width: 768px), (min-width: 992px) {
-        .off-1{
-            display: none;
-        }
-        .off-3{
-            display: none;
-        }
-        .cardVariedad-1{
-            height: auto;
-         }
-         .cardVariedad-2{
-             height: auto;
-         }
-         .cardVariedad-3{
-             height: auto;
-         }
-         .cardVariedad-4{
-             height: auto;
-         }
-         .cardVariedad-5{
-             height: auto;
-         }
-           
-     }
-
-     @media (min-width: 992px){
-        .cardVariedad-1{
+@media (max-width: 576px), (max-width: 768px) {
+  .off-2 {
+    display: none;
+  }
+  .off-4 {
+    display: none;
+  }
+  .card img {
+    min-height: 30vh;
+  }
+  .maps {
+    display: none;
+  }
+  .cardVariedad-1 {
+    height: auto;
+  }
+  .cardVariedad-2 {
+    height: auto;
+  }
+  .cardVariedad-3 {
+    height: auto;
+  }
+  .cardVariedad-4 {
+    height: auto;
+  }
+  .cardVariedad-5 {
+    height: auto;
+  }
+  /* .video{
             height: 200px;
-        }
-        .cardVariedad-2{
-            height: 220px;
-        }
-        .cardVariedad-3{
-            height: 340px;
-        }
-        .cardVariedad-4{
-            height: 300px;
-        }
-        .cardVariedad-5{
-            height: 150px;
-        }
-    }
-       
+            width: 300px;
+           
+ } */
+  .caja-contain {
+    height: 280px;
+    width: 350px;
+  }
+}
+
+/*------cuando se agranda----------*/
+@media (min-width: 768px), (min-width: 992px) {
+  .off-1 {
+    display: none;
+  }
+  .off-3 {
+    display: none;
+  }
+  .cardVariedad-1 {
+    height: auto;
+  }
+  .cardVariedad-2 {
+    height: auto;
+  }
+  .cardVariedad-3 {
+    height: auto;
+  }
+  .cardVariedad-4 {
+    height: auto;
+  }
+  .cardVariedad-5 {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardVariedad-1 {
+    height: 200px;
+  }
+  .cardVariedad-2 {
+    height: 220px;
+  }
+  .cardVariedad-3 {
+    height: 340px;
+  }
+  .cardVariedad-4 {
+    height: 300px;
+  }
+  .cardVariedad-5 {
+    height: 150px;
+  }
+}
