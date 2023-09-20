@@ -22,6 +22,8 @@ body {
 }
 
 /*---------------- MENU DE NAVEGACION------------------------- */
+/* pasado a sass */
+
 .bg-body-verde {
   background-color: rgb(159, 226, 205);
   min-height: 70px;
