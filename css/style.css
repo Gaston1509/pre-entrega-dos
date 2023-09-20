@@ -17,7 +17,8 @@ body {
   text-align: center;
 }
 .justificado {
-  text-align: justify;
+  /* text-align: justify; */
+  text-align: start;
 }
 
 /*---------------- MENU DE NAVEGACION------------------------- */
@@ -220,6 +221,7 @@ body {
 .fa-brands:hover {
   color: rgb(17, 18, 17);
   font-size: 2rem;
+  
 }
 
 /* ------------@media-------------- */
