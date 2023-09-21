@@ -9,15 +9,15 @@
 
 body {
   background-color: #87fdfd;
-  background-image: url("$img-body");
+  background-image: url("../assets/bg body.avif");
 }
 
 .centrado {
-  text-align: text-align center;
+  text-align: center;
 }
 
 .justificado {
-  text-align: text-align start;
+  text-align: start;
 }
 
 .bg-body-verde {
@@ -95,7 +95,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.card img {
+.cardimg {
   min-height: 100%;
   min-width: 100%;
 }
@@ -136,29 +136,36 @@ body {
 
 .bg-card {
   margin-top: 10pz;
-  background-color: rgba(235, 248, 248, 0.705);
-  border: 0.5px solid rgb(190, 169, 169);
+  background-color: rgba(235, 248, 248, 0.7058823529);
+  border: 0.5px solid #bea9a9;
 }
 
 .btn-receta {
-  background-color: rgb(180, 168, 168);
+  background-color: #b4a8a8;
   width: 200px;
   height: 50px;
   font-size: 25px;
 }
 .btn-receta:hover {
-  background-color: rgb(206, 100, 100);
+  background-color: #ce6464;
   color: white;
 }
 .btn-receta:first-child:active {
-  background-color: rgb(206, 100, 100);
+  background-color: #ce6464;
 }
 
 .card-receta {
   width: 800px;
   border-radius: 10px;
-  background-color: rgb(181, 245, 223);
+  background-color: #b5f5df;
   box-shadow: 10px 10px 20px 2px gray;
+}
+
+.item-img {
+  height: 100%;
+  width: 100%;
+  outline: 1px solid #ffffff;
+  outline-offset: -5px;
 }
 
 /*# sourceMappingURL=main.css.map */

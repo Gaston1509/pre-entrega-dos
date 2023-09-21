@@ -12,7 +12,7 @@ $reset-border: border-box;
 $font-principal: "Roboto", sans-serif;
 //color e imagen del body
 $color-body: #87fdfd;
-$img-body: ("../assets/bg\ body.avif");
+$img-body: url("../assets/bg\ body.avif");
 $color-cambio: #000000;
 
 
@@ -25,27 +25,34 @@ $color-nav: #9fe2cd;
 $color-nav-hover:#9fe2cd;
 
 
-//MIXIN COLOR Y TAMAÑO BANNER Y H3
+//COLOR Y TAMAÑO BANNER Y H3
 $color-banner: #d4cecead;
 $color-banner-font: #312c2c; 
 $font-size-banner: 20px;
+//-------------------------------
 
+//COLORES bg-card
+$color-bg-receta: #ebf8f8b4;
+$color-border: #bea9a9;
 
+//.btn-receta
+$bg-receta: #b4a8a8;
 
+//.btn-receta:hover
+$color-bg-hover: #ce6464;
 
+//.btn:first-child:active
+$color-bg-child: #ce6464;
 
 
 
 //colores
 
 
-
-
-
 //centrados .centrado y . justificado
-$centrado-center: text-align center;
+$centrado-center: center;
 
-$justificado-start: text-align start;
+$justificado-start: start;
 
 
 

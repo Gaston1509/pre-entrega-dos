@@ -18,14 +18,15 @@
   
   .card {
     @include card-bd-princiapl;
+    
         h3 {
-    color: rgb(49, 44, 44);
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+                color: rgb(49, 44, 44);
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
   }
 
-        img {
+        &img {
     min-height: 100%;
     min-width: 100%;
   }

@@ -78,13 +78,13 @@ body {
   padding: 10px 0px 5px 0;
   margin-bottom: 5px;
 }
-.bg-body-fondo {
-  background-color: rgba(228, 222, 222, 0.817);
-}
-
 .cinta h1 {
   font-size: 1.5rem;
   letter-spacing: 3px;
+}
+
+.bg-body-fondo {
+  background-color: rgba(228, 222, 222, 0.817);
 }
 
 .card {
@@ -93,6 +93,7 @@ body {
   border-radius: 10px;
   border: solid 1px rgb(128, 128, 128);
 }
+
 .card h3 {
   color: rgb(49, 44, 44);
   font-size: 20px;
@@ -140,12 +141,12 @@ body {
 /* -----------------------------------RECETAS -----------------------*/
 .bg-card {
   margin-top: 10pz;
-  background-color: rgba(235, 248, 248, 0.705);
+  background-color: hsla(180, 48%, 95%, 0.705);
   border: 0.5px solid rgb(190, 169, 169);
 }
 
 .btn-receta {
-  background-color: rgb(180, 168, 168);
+  background-color: hsl(0, 7%, 68%);
   width: 200px;
   height: 50px;
   font-size: 25px;

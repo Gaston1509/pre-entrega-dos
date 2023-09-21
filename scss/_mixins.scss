@@ -36,6 +36,18 @@
 @mixin card-propiedad {
     width: 800px;
     border-radius: 10px;
-    background-color: rgb(181, 245, 223);
+    background-color: #b5f5df;
     box-shadow: 10px 10px 20px 2px gray;
-  }
+}
+
+//GALERIA
+@mixin item{
+    height: 100%;
+    width: 100%;
+    outline: 1px solid #ffffff;
+    outline-offset: -5px;
+}
+
+
+
+  
