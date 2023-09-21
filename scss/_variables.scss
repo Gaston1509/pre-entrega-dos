@@ -1,22 +1,53 @@
 //Definir variables
+
 //palabras claves donde se guarda informacion
 
 //funente principal
 
-$font-principal: "Roboto", sans-serif;
+
+
 
 //Reset
-$reset: border-box;
-
-//color e imagen body
-$color-body: rgb(135, 253, 253);
+$reset-border: border-box;
+$font-principal: "Roboto", sans-serif;
+//color e imagen del body
+$color-body: #87fdfd;
 $img-body: ("../assets/bg\ body.avif");
+$color-cambio: #000000;
 
 
-//centrados
-$centrado: text-align: center;
 
-$justificado: text-align: start;
+
+
+
+//color nav MENU-NAV
+$color-nav: #9fe2cd;
+$color-nav-hover:#9fe2cd;
+
+
+//MIXIN COLOR Y TAMAÑO BANNER Y H3
+$color-banner: #d4cecead;
+$color-banner-font: #312c2c; 
+$font-size-banner: 20px;
+
+
+
+
+
+
+
+//colores
+
+
+
+
+
+//centrados .centrado y . justificado
+$centrado-center: text-align center;
+
+$justificado-start: text-align start;
+
+
 
 
 

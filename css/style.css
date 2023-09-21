@@ -17,7 +17,6 @@ body {
   text-align: center;
 }
 .justificado {
-  /* text-align: justify; */
   text-align: start;
 }
 
@@ -109,11 +108,11 @@ body {
 /*---------------------------BANNER--------------------------- */
 
 .banner {
-  background-color: rgba(212, 206, 206, 0.677);
+  background-color: #d4cecead;
   min-height: 40vh;
-  border: solid 1px grey;
+  border: solid 1px #808080;
   border-radius: 10px;
-  color: rgb(49, 44, 44);
+  color: #312c2c;
 }
 
 #banner-h3 {

@@ -1,16 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.cambio {
+  color: #000000;
+}
+
+body {
+  background-color: #87fdfd;
+  background-image: url("$img-body");
+}
+
+.centrado {
+  text-align: text-align center;
+}
+
+.justificado {
+  text-align: text-align start;
+}
+
 .bg-body-verde {
-  background-color: rgb(159, 226, 205);
+  background-color: #9fe2cd;
   min-height: 70px;
 }
 
 .bg-boton {
-  background-color: rgb(159, 226, 205);
+  background-color: #9fe2cd;
   width: 120px;
   letter-spacing: 2px;
   color: black;
 }
 .bg-boton:hover {
-  background-color: rgb(162, 162, 212);
+  background-color: #9fe2cd;
 }
 
 .navbar-nav {
@@ -38,6 +60,105 @@
 .titulo-central {
   text-transform: uppercase;
   font-size: 2.5rem;
+}
+
+.principal a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
+}
+
+.cinta {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px 5px 0;
+  margin-bottom: 5px;
+}
+.cinta h1 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.bg-body-fondo {
+  background-color: rgba(228, 222, 222, 0.817);
+}
+
+.card {
+  min-width: 50%;
+  background-color: rgba(212, 206, 206, 0.677);
+  border-radius: 10px;
+  border: solid 1px rgb(128, 128, 128);
+}
+.card h3 {
+  color: rgb(49, 44, 44);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.banner {
+  background-color: rgba(212, 206, 206, 0.6784313725);
+  min-height: 40vh;
+  border: solid 1px #808080;
+  border-radius: 10px;
+  color: #312c2c;
+}
+
+#banner-h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cardVariedad-1 {
+  height: 200px;
+}
+
+.cardVariedad-2 {
+  height: 220px;
+}
+
+.cardVariedad-3 {
+  height: 340px;
+}
+
+.cardVariedad-4 {
+  height: 300px;
+}
+
+.cardVariedad-5 {
+  height: 150px;
+}
+
+.bg-card {
+  margin-top: 10pz;
+  background-color: rgba(235, 248, 248, 0.705);
+  border: 0.5px solid rgb(190, 169, 169);
+}
+
+.btn-receta {
+  background-color: rgb(180, 168, 168);
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+.btn-receta:hover {
+  background-color: rgb(206, 100, 100);
+  color: white;
+}
+.btn-receta:first-child:active {
+  background-color: rgb(206, 100, 100);
+}
+
+.card-receta {
+  width: 800px;
+  border-radius: 10px;
+  background-color: rgb(181, 245, 223);
+  box-shadow: 10px 10px 20px 2px gray;
 }
 
 /*# sourceMappingURL=main.css.map */

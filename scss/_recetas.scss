@@ -1,0 +1,25 @@
+.bg-card {
+    margin-top: 10pz;
+    background-color: rgba(235, 248, 248, 0.705);
+    border: 0.5px solid rgb(190, 169, 169);
+  }
+  
+  .btn-receta {
+    background-color: rgb(180, 168, 168);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+        &:hover {
+    background-color: rgb(206, 100, 100);
+    color: white;
+  }
+        &:first-child:active {
+    background-color: rgb(206, 100, 100);
+  }
+
+}
+  
+  .card-receta {
+    @include card-propiedad;
+  }
+  

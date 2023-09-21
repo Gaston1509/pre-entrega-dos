@@ -1,0 +1,17 @@
+* {
+        box-sizing: $reset-border;
+        font-family: $font-principal;
+      }
+      .cambio {
+        color: $color-cambio;
+      }
+      body {
+        background-color: $color-body;
+        background-image: url("$img-body");
+      }
+      .centrado {
+        text-align: $centrado-center;
+      }
+      .justificado {
+        text-align: $justificado-start;
+      }

@@ -1,19 +1,27 @@
 
 //lista de import
-@import'./menu-nav.scss'
-
-
-
+//1. cargar variables (van primero)
+//2. agregar import de los partial_
 
 
 
 //Variables
-
+@import'./variables';
+@import'./mixins';
 
 
 
 
 //layaout-componentes Header, main y footer
+@import'./reset';
+@import'./menu-nav';
+@import'./cuerpo-principal';
+@import'./banner-bh3';
+@import'./variedades';
+@import'./recetas';
+
+
+
 
 
 

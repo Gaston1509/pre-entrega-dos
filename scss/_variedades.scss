@@ -1,0 +1,13 @@
+$cardVariedades: (
+  cardVariedad-1: 200px,
+  cardVariedad-2: 220px,
+  cardVariedad-3: 340px,
+  cardVariedad-4: 300px,
+  cardVariedad-5: 150px
+);
+
+@each $class, $height in $cardVariedades {
+  .#{$class} {
+    height: $height;
+  }
+}

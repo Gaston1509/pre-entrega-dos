@@ -1,0 +1,41 @@
+//mixins cuerpo principal
+
+@mixin cinta{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 5px 0;
+    margin-bottom: 5px;
+}
+
+@mixin card-bd-princiapl{
+    min-width: 50%;
+    background-color: rgba(212, 206, 206, 0.677);
+    border-radius: 10px;
+    border: solid 1px rgb(128, 128, 128);
+}
+
+
+//MIXIN BANNER Y H3
+@mixin banner-bd-principal{
+    background-color: $color-banner;
+    min-height: 40vh;
+    border: solid 1px #808080;
+    border-radius: 10px;
+    color: $color-banner-font;
+
+}
+@mixin banner-h3 {
+      font-size: $font-size-banner;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+}
+
+//RECETA CARD
+@mixin card-propiedad {
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(181, 245, 223);
+    box-shadow: 10px 10px 20px 2px gray;
+  }
