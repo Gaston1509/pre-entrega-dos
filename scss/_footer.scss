@@ -1,0 +1,29 @@
+.pie {
+    min-height: 80px;
+    background-color: $color-nav;
+    color: rgb(74, 62, 62);
+
+        ul {
+    list-style: none;
+}
+        a {
+            color: #4a3e3e;
+            text-decoration: none;
+            list-style: none;
+            &:hover {
+            color: rgb(17, 18, 17);
+            font-size: 1.1rem;
+  }
+  }     
+  }
+  .fa-brands {
+    font-size: 25px;
+    padding-right: 1rem;
+
+        &:hover {
+    color: color-footer-hover;
+    font-size: 2rem; 
+  }
+  }
+  
+  

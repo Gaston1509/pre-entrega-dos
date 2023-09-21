@@ -1,0 +1,24 @@
+.btn-large {
+  width: 100%;
+}
+.form-control {
+  background-color: #e3d5d5;
+
+    &:focus {
+  background-color: #c1b6b6;
+}
+}
+.asado {
+      a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
+  text-transform: uppercase;
+
+        &:hover {
+  color: rgb(49, 44, 44);
+  font-size: 1.1rem;
+}
+}
+}
+
+

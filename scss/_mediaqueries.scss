@@ -1,0 +1,82 @@
+/* ------------@media-------------- */
+
+/*---------cuando se encoje---------*/
+
+@media (max-width: 576px), (max-width: 768px) {
+    .off-2 {
+      display: none;
+    }
+    .off-4 {
+      display: none;
+    }
+    .card img {
+      min-height: 30vh;
+    }
+    .maps {
+      display: none;
+    }
+    .cardVariedad-1 {
+      height: auto;
+    }
+    .cardVariedad-2 {
+      height: auto;
+    }
+    .cardVariedad-3 {
+      height: auto;
+    }
+    .cardVariedad-4 {
+      height: auto;
+    }
+    .cardVariedad-5 {
+      height: auto;
+    }
+    .caja-contain {
+      height: 280px;
+      width: 350px;
+    }
+  }
+  
+  /*------cuando se agranda----------*/
+
+  @media (max-width: 768px), (max-width: 992px) {
+    .off-1 {
+      display: none;
+    }
+    .off-3 {
+      display: none;
+    }
+    .cardVariedad-1 {
+      height: auto;
+    }
+    .cardVariedad-2 {
+      height: auto;
+    }
+    .cardVariedad-3 {
+      height: auto;
+    }
+    .cardVariedad-4 {
+      height: auto;
+    }
+    .cardVariedad-5 {
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .cardVariedad-1 {
+      height: 200px;
+    }
+    .cardVariedad-2 {
+      height: 220px;
+    }
+    .cardVariedad-3 {
+      height: 340px;
+    }
+    .cardVariedad-4 {
+      height: 300px;
+    }
+    .cardVariedad-5 {
+      height: 150px;
+    }
+  }
+  
