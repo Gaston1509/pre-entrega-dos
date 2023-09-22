@@ -2,6 +2,7 @@
 
 /*---------cuando se encoje---------*/
 
+
 @media (max-width: 576px), (max-width: 768px) {
     .off-2 {
       display: none;
@@ -10,7 +11,7 @@
       display: none;
     }
     .card img {
-      min-height: 30vh;
+      min-height: 50%;
     }
     .maps {
       display: none;
@@ -35,16 +36,27 @@
       width: 350px;
     }
   }
+
+  @media (min-width: 576px){
+    .card img {
+      min-height: 50%;
+      
+    }
+  }
   
   /*------cuando se agranda----------*/
 
-  @media (max-width: 768px), (max-width: 992px) {
+  @media (min-width: 768px), (min-width: 992px) {
     .off-1 {
       display: none;
     }
     .off-3 {
       display: none;
     }
+  
+  .card img {
+    min-height: 40vh;
+  }
     .cardVariedad-1 {
       height: auto;
     }
