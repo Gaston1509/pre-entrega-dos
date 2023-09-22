@@ -1,3 +1,4 @@
+/*---------RECET-------------*/
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -20,6 +21,7 @@ body {
   text-align: start;
 }
 
+/*---------MENU NAV-------------*/
 .bg-body-verde {
   background-color: #9fe2cd;
   min-height: 70px;
@@ -102,6 +104,7 @@ body {
 }
 
 /* ------------FIN CUERPO PRINCIPAL-------------- */
+/*---------BANNER-------------*/
 .banner {
   background-color: rgba(212, 206, 206, 0.6784313725);
   min-height: 40vh;
@@ -116,6 +119,7 @@ body {
   letter-spacing: 2px;
 }
 
+/*---------VARIEDADES-------------*/
 .cardVariedad-1 {
   height: 200px;
 }
@@ -136,6 +140,7 @@ body {
   height: 150px;
 }
 
+/*---------RECETAS-------------*/
 .bg-card {
   margin-top: 10pz;
   background-color: rgba(235, 248, 248, 0.7058823529);
@@ -163,13 +168,21 @@ body {
   box-shadow: 10px 10px 20px 2px gray;
 }
 
+/*---------GALERIA-------------*/
 .item-img {
   height: 100%;
   width: 100%;
   outline: 1px solid #ffffff;
   outline-offset: -5px;
+  transition: all 1s;
+  justify-content: center;
+}
+.item-img:hover {
+  height: 90%;
+  width: 90%;
 }
 
+/*---------CONTACTO-------------*/
 .btn-large {
   width: 100%;
 }
@@ -191,6 +204,7 @@ body {
   font-size: 1.1rem;
 }
 
+/*---------FOOTER-------------*/
 .pie {
   min-height: 80px;
   background-color: #9fe2cd;
@@ -251,6 +265,7 @@ body {
   .caja-contain {
     height: 280px;
     width: 350px;
+    justify-content: center;
   }
 }
 @media (min-width: 576px) {

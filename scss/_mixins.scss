@@ -46,6 +46,15 @@
     width: 100%;
     outline: 1px solid #ffffff;
     outline-offset: -5px;
+    transition: all 1s;
+    justify-content: center;
+   
+    &:hover{
+        height: 90%;
+        width: 90%;
+        
+    }
+
 }
 
 
