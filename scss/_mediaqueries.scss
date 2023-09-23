@@ -10,6 +10,7 @@
     .off-4 {
       display: none;
     }
+    
     .card img {
       min-height: 50%;
      
@@ -37,6 +38,9 @@
       width: 350px;
       justify-content: center;
     }
+    .card-off{
+      display: none;
+    }
     
   }
 
@@ -46,6 +50,7 @@
       min-height: 50%;
       
     }
+   
   }
   
   /*------cuando se agranda----------*/
@@ -57,7 +62,7 @@
     .off-3 {
       display: none;
     }
-  
+      
   .card img {
     min-height: 40vh;
   }
