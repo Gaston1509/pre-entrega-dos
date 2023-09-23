@@ -241,6 +241,9 @@ body {
   .off-4 {
     display: none;
   }
+  .card-video {
+    margin-left: 14px;
+  }
   .card img {
     min-height: 50%;
   }
@@ -271,6 +274,9 @@ body {
 @media (min-width: 576px) {
   .card img {
     min-height: 50%;
+  }
+  .menor {
+    font-size: 14px;
   }
 }
 /*------cuando se agranda----------*/

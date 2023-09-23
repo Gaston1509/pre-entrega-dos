@@ -10,6 +10,10 @@
     .off-4 {
       display: none;
     }
+   
+    .card-video{
+      margin-left: 14px;
+    }
     
     .card img {
       min-height: 50%;
@@ -38,10 +42,7 @@
       width: 350px;
       justify-content: center;
     }
-    .card-off{
-      display: none;
-    }
-    
+ 
   }
 
   @media (min-width: 576px){
@@ -49,6 +50,9 @@
     .card img {
       min-height: 50%;
       
+    }
+    .menor{
+      font-size: 14px;
     }
    
   }
