@@ -1,18 +1,336 @@
-/* Error: Expected expression.
- *   ,
- * 5 |   background-color:;
- *   |                    ^
- *   '
- *   scss\_contacto.scss 5:20  @import
- *   scss\main.scss 23:8       root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a   \2577 \a 5 \2502    background-color:;\d\a   \2502                     ^\a   \2575 \a   scss\\_contacto.scss 5:20  @import\a   scss\\main.scss 23:8       root stylesheet";
+/*---------RECET-------------*/
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
+
+.cambio {
+  color: #000000;
+}
+
+body {
+  background-color: #87fdfd;
+  background-image: url("../assets/bg body.avif");
+}
+
+.centrado {
+  text-align: center;
+}
+
+.justificado {
+  text-align: start;
+}
+
+/*---------MENU NAV-------------*/
+.bg-body-verde {
+  background-color: #9fe2cd;
+  min-height: 70px;
+}
+
+.bg-boton {
+  background-color: #9fe2cd;
+  width: 120px;
+  letter-spacing: 2px;
+  color: black;
+}
+.bg-boton:hover {
+  background-color: #9fe2cd;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: 0px;
+}
+
+.nav-link {
+  color: rgb(59, 55, 55);
+}
+.nav-link:hover {
+  color: rgb(17, 18, 17);
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+}
+.navbar-brand .img-logo {
+  height: 70px;
+  width: 70px;
+}
+
+.titulo-central {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+/* ------------CUERPO PRINCIPAL-------------- */
+.principal a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
+}
+
+.cinta {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px 5px 0;
+  margin-bottom: 5px;
+}
+.cinta h1 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.bg-body-fondo {
+  background-color: rgba(212, 206, 206, 0.932);
+}
+
+.card {
+  min-width: 50%;
+  background-color: rgba(212, 206, 206, 0.937254902);
+  border-radius: 10px;
+  border: solid 1px rgb(128, 128, 128);
+}
+.card h3 {
+  color: rgb(49, 44, 44);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.card img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* ------------FIN CUERPO PRINCIPAL-------------- */
+/*---------BANNER-------------*/
+.banner {
+  background-color: rgba(212, 206, 206, 0.937254902);
+  min-height: 40vh;
+  border: solid 1px #808080;
+  border-radius: 10px;
+  color: #3d3737;
+}
+
+#banner-h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*---------VARIEDADES-------------*/
+.cardVariedad-1 {
+  height: 200px;
+}
+
+.cardVariedad-2 {
+  height: 220px;
+}
+
+.cardVariedad-3 {
+  height: 340px;
+}
+
+.cardVariedad-4 {
+  height: 300px;
+}
+
+.cardVariedad-5 {
+  height: 150px;
+}
+
+/*---------RECETAS-------------*/
+.bg-card {
+  margin-top: 10pz;
+  background-color: rgba(235, 248, 248, 0.7058823529);
+  border: 0.5px solid #bea9a9;
+}
+
+.btn-receta {
+  background-color: #b4a8a8;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
+.btn-receta:hover {
+  background-color: #ce6464;
+  color: white;
+}
+.btn-receta:first-child:active {
+  background-color: #ce6464;
+}
+
+.card-receta {
+  width: 800px;
+  border-radius: 10px;
+  background-color: #b5f5df;
+  box-shadow: 10px 10px 20px 2px gray;
+}
+
+/*---------GALERIA-------------*/
+.item-img {
+  height: 100%;
+  width: 100%;
+  outline: 1px solid #ffffff;
+  outline-offset: -5px;
+  transition: all 1s;
+  justify-content: center;
+}
+.item-img:hover {
+  height: 90%;
+  width: 90%;
+}
+
+/*---------CONTACTO-------------*/
+.btn-large {
+  width: 100%;
+}
+.btn-large:hover {
+  background-color: rgb(50, 230, 119);
+}
+.btn-large:focus {
+  background-color: rgb(238, 137, 78);
+}
+.btn-large:active {
+  background-color: black;
+}
+
+.form-control {
+  background-color: rgb(247, 242, 242);
+}
+.form-control:focus {
+  background-color: rgb(193, 182, 182);
+}
+
+.asado a {
+  text-decoration: none;
+  color: rgb(49, 44, 44);
+  text-transform: uppercase;
+}
+.asado a:hover {
+  color: rgb(61, 55, 55);
+  font-size: 1.1rem;
+}
+
+/*---------FOOTER-------------*/
+.pie {
+  min-height: 80px;
+  background-color: #9fe2cd;
+  color: rgb(74, 62, 62);
+}
+.pie ul {
+  list-style: none;
+}
+.pie a {
+  color: #4a3e3e;
+  text-decoration: none;
+  list-style: none;
+}
+.pie a:hover {
+  color: rgb(17, 18, 17);
+  font-size: 1.1rem;
+}
+
+.fa-brands {
+  font-size: 25px;
+  padding-right: 1rem;
+}
+.fa-brands:hover {
+  color: color-footer-hover;
+  font-size: 2rem;
+}
+
+/* ------------@media-------------- */
+/*---------cuando se encoje---------*/
+@media (max-width: 576px), (max-width: 768px) {
+  .off-2 {
+    display: none;
+  }
+  .off-4 {
+    display: none;
+  }
+  .card-video {
+    margin-left: 14px;
+  }
+  .card img {
+    min-height: 50%;
+  }
+  .maps {
+    display: none;
+  }
+  .cardVariedad-1 {
+    height: auto;
+  }
+  .cardVariedad-2 {
+    height: auto;
+  }
+  .cardVariedad-3 {
+    height: auto;
+  }
+  .cardVariedad-4 {
+    height: auto;
+  }
+  .cardVariedad-5 {
+    height: auto;
+  }
+  .caja-contain {
+    height: 280px;
+    width: 350px;
+    justify-content: center;
+  }
+}
+@media (min-width: 576px) {
+  .card img {
+    min-height: 50%;
+  }
+  .menor {
+    font-size: 14px;
+  }
+}
+/*------cuando se agranda----------*/
+@media (min-width: 768px), (min-width: 992px) {
+  .off-1 {
+    display: none;
+  }
+  .off-3 {
+    display: none;
+  }
+  .card img {
+    min-height: 47vh;
+  }
+  .cardVariedad-1 {
+    height: auto;
+  }
+  .cardVariedad-2 {
+    height: auto;
+  }
+  .cardVariedad-3 {
+    height: auto;
+  }
+  .cardVariedad-4 {
+    height: auto;
+  }
+  .cardVariedad-5 {
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .cardVariedad-1 {
+    height: 200px;
+  }
+  .cardVariedad-2 {
+    height: 220px;
+  }
+  .cardVariedad-3 {
+    height: 340px;
+  }
+  .cardVariedad-4 {
+    height: 300px;
+  }
+  .cardVariedad-5 {
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

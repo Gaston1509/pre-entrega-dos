@@ -1,19 +1,26 @@
 /*---------CONTACTO-------------*/
-
-
-.form-control {
-  background-color:;
-
-    &:focus {
-  background-color:;
-}
-
 .btn-large {
   width: 100%;
+
+  &:hover{
+    background-color: rgb(50, 230, 119);
+  }
+  
+  &:focus {
+    background-color:rgb(238, 137, 78);
+  }
+  &:active { 
+   background-color: black;
+  }
 }
 
-
+.form-control {
+  background-color: rgb(247, 242, 242);
+  &:focus {
+    background-color:rgb(193, 182, 182);
+  }
 }
+
 .asado {
       a {
   text-decoration: none;
