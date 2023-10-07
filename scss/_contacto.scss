@@ -1,14 +1,18 @@
 /*---------CONTACTO-------------*/
 
+
+.form-control {
+  background-color:;
+
+    &:focus {
+  background-color:;
+}
+
 .btn-large {
   width: 100%;
 }
-.form-control {
-  background-color: #e3d5d5;
 
-    &:focus {
-  background-color: #c1b6b6;
-}
+
 }
 .asado {
       a {
@@ -17,9 +21,9 @@
   text-transform: uppercase;
  
         &:hover {
-  color: rgb(49, 44, 44);
+  color: rgb(61, 55, 55);
   font-size: 1.1rem;
-}
+} 
 }
 }
 
